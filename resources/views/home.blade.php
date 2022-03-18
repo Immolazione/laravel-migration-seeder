@@ -17,8 +17,8 @@
         <li><strong>Orario Partenza </strong>{{ $train->orario_partenza }}</li>
         <li><strong>Orario Arrivo </strong>{{ $train->orario_arrivo }}</li>
         <li><strong>Codice del treno </strong>{{ $train->codice_treno }}</li>
-        <li><strong>Stato in Orario: </strong>{{ $train->treno_in_orario = 0 ? 'Treno in Ritardo' : 'Treno in Orario'}}</li>
-        <li><strong>Stato Cancellazione: </strong>{{ $train->cancellato = 0 ? 'Treno in Transito' : 'Treno Cancellato'}}</li>
+        <li><strong>Stato in Orario: </strong>{{ $train->treno_in_orario == 0 ? 'Treno in Ritardo' : 'Treno in Orario'}}</li>
+        <li><strong>Stato Cancellazione: </strong>{{ $train->cancellato == 0 ? 'Treno in Transito' : 'Treno Cancellato'}}</li>
     </ul>
     @endforeach
 </div>
