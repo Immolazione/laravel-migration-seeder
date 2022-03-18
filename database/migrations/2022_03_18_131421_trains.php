@@ -22,8 +22,8 @@ class Trains extends Migration
             $table->dateTime('orario_partenza');  //ora partenza
             $table->dateTime('orario_arrivo');  //ora arrivo
             $table->smallInteger('codice_treno')->unsigned(); //codice treno
-            $table->boolean('treno_in_orario', true); //treno in orario
-            $table->boolean('cancellato', true); //treno in partenza
+            $table->boolean('treno_in_orario'); //treno in orario
+            $table->boolean('cancellato'); //treno in partenza
             $table->timestamps();
         });
     }
