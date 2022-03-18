@@ -7,7 +7,7 @@ return [
         "stazione_di_arrivo" => "Napoli",
         "orario_partenza" => "2022-03-17 12:30:00",
         "orario_arrivo" => "2022-03-17 16:00:00",
-        "codice_treno" => "92340",
+        "codice_treno" => "12335",
         "treno_in_orario" => true,
         "cancellato" => false,
     ],
